@@ -10,10 +10,10 @@ The aim of the project is to build a model based on customers data.
 This model is used to identify if the transaction is fraud or not at real time and display under fraud transactions. 
 
 ## Data
-Customer - File includes customer data with following attributes
+Customer - File includes customer data with following attributes - 
 Customer_number ,First_Name, Last_Name, Gender, Street, City, State, Zip, Latitude , Longititude , Job, date_of_Birth
 
-Transactions - File includes past customer transactions indicating the transactions which were fraud
+Transactions - File includes past customer transactions indicating the transactions which were fraud -
 Customer_number ,First_Name, Last_Name, Trans_num, Trans_date, Trans_time, unix_time, Category, Merchant,amt,merch_lat,merch_long,is_fraud
 
 ## Pipeline
